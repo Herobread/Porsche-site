@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.imgFull {
+    background: url(img/porsche1.jpg) no-repeat;
+    height: 50vw;
+    -moz-background-size: 100%;
+    /* Firefox 3.6+ */
+    -webkit-background-size: 100%;
+    /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+    /* Opera 9.6+ */
+    background-size: 100%;
+    /* Современные браузеры */
+}
+
+.frame {
+    background-color: rgb(255, 255, 255);
+    height: 52vw;
+}
+
+.frame2 {
+    background-color: whitesmoke;
+    height: 52vw;
+}
+
+.frameDesign {
+    background-color: whitesmoke;
+    height: 52vw;
+}
+
+#text1 {
+    position: relative;
+    top: 30px;
+    font-size: 20pt;
+    font-family: Porsche;
+    text-align: center;
+    z-index: 5;
+    color: whitesmoke;
+}
+
+.frame .photo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /*center img*/
+    width: 50%;
+}
+
+.frame .textHelper {
+    position: relative;
+    top: -90px;
+    margin-left: 50%;
+    margin-right: 70px;
+}
+
+.frame .textHelper .header {
+    vertical-align: middle;
+    font-size: 30pt;
+}
+
+.frame .textHelper {
+    position: relative;
+    top: -90px;
+    margin-left: 50%;
+    margin-right: 70px;
+}
+
+.frame2 .photo {
+    margin-left: 50%;
+    margin-right: 20%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /*center img*/
+    width: auto;
+}
+
+.frame2 .textHelper {
+    position: relative;
+    top: -90px;
+    margin-left: 50%;
+    margin-right: 70px;
+}
+
+.frame2 .textHelper .header {
+    vertical-align: middle;
+    font-size: 30pt;
+}
+
+.frame2 .textHelper {
+    text-align: right;
+    position: relative;
+    top: -0px;
+    margin-left: 120px;
+    margin-right: 50%;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+footer img {
+    height: 100px;
+}
+
+footer p {
+    float: right;
+    height: 20px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-right: 40px;
+}
+
+
+/*
+https://www.porsche.com/uk/models/911/911-models/carrera-4/
+*/

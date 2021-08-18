@@ -1,0 +1,58 @@
+* {
+    font-family: 'Porsche Next TT';
+}
+
+#navigation {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.links {
+    font-size: 15pt;
+    float: right;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-right: 35px;
+}
+
+#navigation img {
+    height: 80px;
+}
+
+#logo {
+    vertical-align: middle;
+    font-family: Porsche;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Убрать полосу прокрутки у элемента*/
+
+.element::-webkit-scrollbar {
+    width: 0;
+}
+
+
+/*Убрать полосу прокрутки для всей страницы*/
+
+ ::-webkit-scrollbar {
+    width: 0;
+}
+
+@font-face {
+    font-family: 'Porsche';
+    src: url('fonts/Porsche\ Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Porsche Next TT';
+    src: url('fonts/PorscheNextTT-Regular.ttf');
+}
